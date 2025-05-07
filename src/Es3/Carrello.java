@@ -37,12 +37,13 @@ public class Carrello {
         System.out.println("=== Carrello ===");
         if (clienteAssociato != null) {
             clienteAssociato.stampa();
+            System.out.println();
         }
         System.out.println("Totale carrello: " + costoTotale());
         System.out.println("Articoli nel carrello:");
         for (Articolo articolo : elencoArticoli) {
             if (articolo != null) {
-                System.out.println(" - Articolo: " + articolo.getPrezzo() + "€");
+                articolo.stampa();
             }
         }
     }
