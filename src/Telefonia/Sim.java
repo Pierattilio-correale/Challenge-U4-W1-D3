@@ -10,7 +10,7 @@ public class Sim {
     public Sim(String phoneNumber) {
         this.phoneNumber = phoneNumber;
         this.credito = 0.0;
-        this.listaChiamate = new Chiamata[5]; // Fisso a 5 chiamate
+        this.listaChiamate = new Chiamata[5];
         this.numeroChiamate = 0;
     }
 
